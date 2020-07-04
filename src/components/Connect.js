@@ -33,11 +33,6 @@ function Connect(){
         </ListItemLink>
         </Grid>
     </div>
-
-
-
-
-
     )
 }
 

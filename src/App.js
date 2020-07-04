@@ -25,7 +25,11 @@ function App() {
       <br/>
       <About />
       <Portfolio />
+      <br/>
+      <br/>
       <Grid />
+      <br/>
+      <br/>
       <Connect />
     </div>
   );
