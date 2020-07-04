@@ -4,6 +4,7 @@ import Grid from './components/SingleGridList';
 import Hello from './components/ProjectList';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Connect from './components/Connect';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import './index.css';
@@ -25,6 +26,7 @@ function App() {
       <About />
       <Portfolio />
       <Grid />
+      <Connect />
     </div>
   );
 }
