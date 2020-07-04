@@ -24,7 +24,7 @@ const stylePortfolio = {
 const stylePortfolioTitle = {
     fontFamily: 'Raleway',
     fontSize: 25,
-    color: '#00008B'
+    color: '#64b5f6'
 }
 
 
