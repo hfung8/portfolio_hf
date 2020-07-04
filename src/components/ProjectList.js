@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 const styleDescription = {
     fontSize: 25,
     fontFamily: 'Raleway',
-    color: '#000000'
+    color: '#a9a9a9'
 }
 const styleObj = {
     fontFamily: 'Monoton',
@@ -29,7 +29,7 @@ const styleObj = {
 const styleObject = {
     fontFamily: 'Raleway',
     fontSize: 25,
-    color: '#000000'
+    color: '#a9a9a9'
 }
 
 function About(){
