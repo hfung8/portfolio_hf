@@ -42,14 +42,20 @@ function Connect(){
     return(
     <div>
         <h1 style={styleContact}>Please feel free to contact me. I would love to hear from you!</h1>
+        <Grid container direction="row" justify="space-evenly">
+        <Grid item xs={4}>
         <h4 style={styleEmail}>General Email: harrison.hok.fung@gmail.com</h4>
-        <Grid item xs={6} container justify="center">
+        </Grid>
+        <Grid item xs={4}>
         <ListItemLink href='https://www.linkedin.com/in/harrisonfung/'>
         <h4><LinkedInIcon style={{fontSize: 40}}/>LinkedIn</h4>
         </ListItemLink>
+        </Grid>
+        <Grid item xs={4}>
         <ListItemLink href="https://github.com/hfung8">
         <h4><GitHubIcon style={{fontSize: 40}}/>Github</h4>
         </ListItemLink>
+        </Grid>
         </Grid>
     </div>
     )
