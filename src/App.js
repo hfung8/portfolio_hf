@@ -18,9 +18,10 @@ function App() {
   return (
     <div className="App">
       <Hello className={classes.root}/>
-      <Grid />
+      <br/>
       <About />
       <Portfolio />
+      <Grid />
     </div>
   );
 }

@@ -13,19 +13,21 @@ const useStyles = makeStyles((theme) => ({
         fontSize: 24
     },
     background:{
-        color: 'rgba(0, 0, 0, 0.26)'
+        color: '#a9a9a9'
     }
 }));
 
 const styleDescription = {
-    fontSize: 20,
+    fontSize: 25,
+    fontFamily: 'Raleway',
     color: '#000000'
 }
 const styleObj = {
-    fontFamily: 'Monoton'
+    fontFamily: 'Monoton',
+    fontSize: 44
 }
 const styleObject = {
-    fontFamily: 'Helvetica',
+    fontFamily: 'Raleway',
     fontSize: 25,
     color: '#000000'
 }
@@ -35,14 +37,14 @@ function About(){
     const classes = useStyles();
 
     return (
-        <div>
-            <Grid container justify = "center" className={classes.root}>
-                <img src={headshot} alt='harrison headshot' /> </Grid>
-                    <Grid className={classes.background}>
-                        <h1 style={styleObj}><span>Hi, I'm Harrison. <br/> I am a Front End Developer, and I love to build beautiful, functional websites.</span></h1><Divider variant="middle"/><br/>
-                        <Grid container justify= "center">
-                            <Grid container item xs={4}><span style={styleObject}>Creative | Empathetic | Hard-Working</span><br/><Divider variant="middle"/><span style={styleDescription}>I have a passion for coding and helping others to attain their coding goals. I'm a teaching assistant and tutor at both Rutgers and Columbia University coding boot camps.</span></Grid></Grid>
-                    </Grid>
+        <div> 
+                <Grid className={classes.background}>
+                        <h1 style={styleObj}><span>Hi, I'm Harrison. I am a Front End Developer, and I love <br/> to build beautiful, functional websites.</span></h1><Divider variant="middle"/><br/>
+                        <span style={styleObject}>Creative | Empathetic | Hard-Working</span><br/>
+                        <img src={headshot} alt='harrison headshot' /><br/>
+                        <Divider variant="middle" />
+                        <Grid container justify="center"><span style={styleDescription}>I have a passion for coding and helping others to attain their coding goals. I'm a teaching assistant and tutor at both Rutgers and Columbia University coding boot camps.</span></Grid>
+                 </Grid>
         </div>
     )
 }
