@@ -13,24 +13,28 @@ const useStyles = makeStyles((theme) => ({
         fontSize: 24
     },
     background:{
-        color: '#a9a9a9'
+        
     }
 }));
 
 const styleDescription = {
     fontSize: 25,
     fontFamily: 'Raleway',
-    color: '#a9a9a9'
+    color: '#000000'
 }
 const styleObj = {
     fontFamily: 'Monoton',
-    fontSize: 44
-}
-const styleObject = {
-    fontFamily: 'Raleway',
-    fontSize: 25,
+    fontSize: 44,
+    backgroundColor:'#ffb74d',
     color: '#a9a9a9'
 }
+const image = {
+    backgroundColor: 'rgba(0, 0, 0, 0.26)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+}
+
 
 function About(){
 
@@ -38,12 +42,13 @@ function About(){
 
     return (
         <div> 
-                <Grid className={classes.background}>
-                        <h1 style={styleObj}><span>Hi, I'm Harrison. I am a Front End Developer, and I love <br/> to build beautiful, functional websites.</span></h1><Divider variant="middle"/><br/>
-                        <span style={styleObject}>Creative | Empathetic | Hard-Working</span><br/>
+                <Grid>
+                        <div style={styleObj}>Hi, I'm Harrison. I am a Front End Developer, and I love to build beautiful, functional websites.</div>
+                        <Grid container style={image}>
                         <img src={headshot} alt='harrison headshot' /><br/>
+                        </Grid>
                         <Divider variant="middle" />
-                        <Grid container justify="center"><span style={styleDescription}>I have a passion for coding and helping others to attain their coding goals. I'm a teaching assistant and tutor at both Rutgers and Columbia University coding boot camps.</span></Grid>
+                        <Grid container justify="center"><Grid item xs={6}><span style={styleDescription}>Creative | Empathetic | Hard-Working<br/><Divider variant="middle"/> I have a passion for coding and helping others to attain their coding goals. I'm a teaching assistant and tutor at both Rutgers and Columbia University coding boot camps.</span></Grid></Grid>
                  </Grid>
         </div>
     )

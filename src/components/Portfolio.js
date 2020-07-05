@@ -1,6 +1,22 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import ListItem from "@material-ui/core/ListItem";
+import CSSBaseline from '@material-ui/core/CssBaseline';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+
+const themePortfolio = createMuiTheme({
+    palette: {
+      type: 'dark',
+      primary: {
+        light: '#99d5cf',
+        main: '#ffb74d',
+        dark: '#598e89'
+      },
+      background: {
+        default: '#598e89'
+      }
+    }
+  });
 
 function ListItemLink(props){
     return <ListItem button component='a' {...props} />;
@@ -9,7 +25,8 @@ function ListItemLink(props){
 const styleObj = {
     fontFamily: 'Monoton',
     color: '#a9a9a9',
-    fontSize: 44
+    fontSize: 44,
+    backgroundColor: '#ffb74d'
 }
 
 const styleProjects = {
@@ -32,7 +49,7 @@ function Portfolio(){
 
     return(
         <div>
-            <h1 style={styleObj}>Portfolio</h1>
+            <div style={styleObj}>Portfolio</div>
             <Grid container>
             <Grid container item xs={4}>
                 <h2 style={styleProjects}>To go to project, click on the project title</h2>
