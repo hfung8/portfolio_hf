@@ -1,22 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import ListItem from "@material-ui/core/ListItem";
-import CSSBaseline from '@material-ui/core/CssBaseline';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-
-const themePortfolio = createMuiTheme({
-    palette: {
-      type: 'dark',
-      primary: {
-        light: '#99d5cf',
-        main: '#ffb74d',
-        dark: '#598e89'
-      },
-      background: {
-        default: '#598e89'
-      }
-    }
-  });
 
 function ListItemLink(props){
     return <ListItem button component='a' {...props} />;

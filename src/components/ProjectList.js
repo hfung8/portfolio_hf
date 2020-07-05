@@ -1,21 +1,7 @@
 import React from "react";
 import Grid from '@material-ui/core/Grid';
 import headshot from '../images/headshot/harrycircle.png'; 
-import { makeStyles } from '@material-ui/core/styles';
 import { Divider } from "@material-ui/core";
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        justify: 'center',
-        background: '#ffffff',
-        fontSize: 24
-    },
-    background:{
-        
-    }
-}));
 
 const styleDescription = {
     fontSize: 25,
@@ -29,7 +15,7 @@ const styleObj = {
     color: '#a9a9a9'
 }
 const image = {
-    backgroundColor: 'rgba(0, 0, 0, 0.26)',
+    backgroundColor: '#9e9e9e',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'
@@ -37,8 +23,6 @@ const image = {
 
 
 function About(){
-
-    const classes = useStyles();
 
     return (
         <div> 
