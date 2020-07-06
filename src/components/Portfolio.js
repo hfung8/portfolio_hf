@@ -8,9 +8,9 @@ function ListItemLink(props){
 
 const styleObj = {
     fontFamily: 'Monoton',
-    color: '#a9a9a9',
+    color: '#40E0D0',
     fontSize: 44,
-    backgroundColor: '#ffb74d'
+    backgroundColor: '#FFD700'
 }
 
 const styleProjects = {
@@ -25,7 +25,7 @@ const stylePortfolio = {
 const stylePortfolioTitle = {
     fontFamily: 'Raleway',
     fontSize: 25,
-    color: '#64b5f6'
+    color: '#40E0D0'
 }
 
 

@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     transform: 'translateZ(0)',
   },
   title: {
-    color: theme.palette.info.dark,
+    color: '#40E0D0',
     fontSize: 20
   },
   titleBar: {
