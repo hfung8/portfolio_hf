@@ -23,6 +23,13 @@ const image = {
     justifyContent: 'center'
 }
 
+const styleObj = {
+    fontFamily: 'Monoton',
+    color: '#40E0D0',
+    fontSize: 44,
+    backgroundColor: '#FFD700'
+}
+
 function About(){
 
     return (
@@ -32,6 +39,7 @@ function About(){
                         <CSSBaseline />
                         <Grid container style={image}>
                         <img src={headshot} alt='harrison headshot' /><br/>
+                        <div style={styleObj}>My Background</div>
                         </Grid>
                         <Divider variant="middle" />
                         <Grid container justify="center"><Grid item xs={6}><span style={styleDescription}>Creative | Empathetic | Hard-Working<br/><Divider variant="middle"/> I have a passion for coding and helping others to attain their coding goals. I'm a teaching assistant and tutor at both Rutgers and Columbia University coding boot camps.</span></Grid></Grid>
