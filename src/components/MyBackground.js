@@ -35,7 +35,7 @@ function About(){
     return (
         <div> 
                 <Grid>
-                    <ThemeProvider theme={darkTheme}>
+                    {/* <ThemeProvider theme={darkTheme}> */}
                         <CSSBaseline />
                         <Grid container style={image}>
                         <img src={headshot} alt='harrison headshot' /><br/>
@@ -43,7 +43,7 @@ function About(){
                         </Grid>
                         <Divider variant="middle" />
                         <Grid container justify="center"><Grid item xs={6}><span style={styleDescription}>Creative | Empathetic | Hard-Working<br/><Divider variant="middle"/> I have a passion for coding and helping others to attain their coding goals. I'm a teaching assistant and tutor at both Rutgers and Columbia University coding boot camps.</span></Grid></Grid>
-                    </ThemeProvider>
+                    {/* </ThemeProvider> */}
                 </Grid>
         </div>
     )
