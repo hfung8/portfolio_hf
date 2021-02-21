@@ -68,6 +68,12 @@ function Portfolio(){
                 </ListItemLink>
                 <p style={stylePortfolio}>Technologies used: Google Places API. Wrote code to sync the Google Places API with app, allowing users to search for food pantries near searched locations.</p>
             </Grid>
+            <Grid item xs={4}>
+                <ListItemLink href="https://hfung8.github.io/COVID-app/#/">
+                <h2 style={stylePortfolioTitle}>COVID-APP</h2>
+                </ListItemLink>
+                <p style={stylePortfolio}>Technologies used: React JS, Material UI, https://covid19.mathdro.id/api to pull the data from.</p>
+            </Grid>
             </Grid>
         </div>
     )
