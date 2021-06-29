@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio_hf/static/css/main.caf8f8cf.chunk.css",
+    "main.js": "/portfolio_hf/static/js/main.abd153b7.chunk.js",
+    "main.js.map": "/portfolio_hf/static/js/main.abd153b7.chunk.js.map",
+    "runtime-main.js": "/portfolio_hf/static/js/runtime-main.7b092bf5.js",
+    "runtime-main.js.map": "/portfolio_hf/static/js/runtime-main.7b092bf5.js.map",
+    "static/css/2.67731326.chunk.css": "/portfolio_hf/static/css/2.67731326.chunk.css",
+    "static/js/2.8d2a0384.chunk.js": "/portfolio_hf/static/js/2.8d2a0384.chunk.js",
+    "static/js/2.8d2a0384.chunk.js.map": "/portfolio_hf/static/js/2.8d2a0384.chunk.js.map",
+    "index.html": "/portfolio_hf/index.html",
+    "precache-manifest.2d4b5cd8081ac602185b7c7d80e8cbc3.js": "/portfolio_hf/precache-manifest.2d4b5cd8081ac602185b7c7d80e8cbc3.js",
+    "service-worker.js": "/portfolio_hf/service-worker.js",
+    "static/css/2.67731326.chunk.css.map": "/portfolio_hf/static/css/2.67731326.chunk.css.map",
+    "static/css/main.caf8f8cf.chunk.css.map": "/portfolio_hf/static/css/main.caf8f8cf.chunk.css.map",
+    "static/media/7seconds.png": "/portfolio_hf/static/media/7seconds.c17186cc.png",
+    "static/media/Card_game.png": "/portfolio_hf/static/media/Card_game.c938d0a3.png",
+    "static/media/OHU.png": "/portfolio_hf/static/media/OHU.fdd703b3.png",
+    "static/media/Open_weather.png": "/portfolio_hf/static/media/Open_weather.6a1d6cbd.png",
+    "static/media/YumCache.png": "/portfolio_hf/static/media/YumCache.98be4142.png",
+    "static/media/harrycircle.png": "/portfolio_hf/static/media/harrycircle.74aa02f2.png"
+  }
+}
